@@ -1,0 +1,162 @@
+
+  body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXpQ8RaAZYFr5S_s-XAiIfNmo--zswVndZqA&s);
+    margin: 0px;
+    padding-top: 1rem;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  /* ESTILO HEADER */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 130px;
+    width: 100%;
+  }
+
+  /* FRASE MOTIVACIONAL */
+  .cont-frase {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    height: 40px;
+    font-weight: bold;
+    
+  }
+  #fraseRandom {
+    color: #0F0D0D;
+  }
+
+  /* TITULO - TO DO LIST */
+  .toDoList {
+    color: #0F0D0D;
+  }
+
+  /* ESTILO SELECT - TAREAS */
+  #sectionListaTareas {
+    display: none;
+    color: #0F0D0D;;
+  }
+  #sectionListaTareas {
+    display: none;
+  }
+  .classSelecionTarea {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+  }
+ #sectionCategorias {
+  margin-left: 50px;
+  display: none;
+ }
+ #selectCategorias {
+  background: #E1DBDC;
+  height: 25px;
+  font-size: 13px;
+  border-radius: 5px;
+  border-color: #171616;
+  opacity: .70;
+ }
+ 
+  #sectionBienvenidx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 500px;
+  }
+
+  /* ESTILO INPUT DESCRPCION DE TAREAS */
+  .classTareaARealizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 130px;
+    color: #0F0D0D;
+  }
+  #textTarea {
+    opacity: .65;
+    font-size: 15px;
+  }
+
+  /* ESTILO BOTON "GUARDAR" */
+  #btnGuardar {
+    background: #E1DBDC;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  /* ESTILO POP UP */
+  #sectionPopUp {
+    display: none;
+    position: fixed;
+    background-color: #A7A3A3;
+    opacity: .75;
+    border-radius: 5px;
+  }
+  #sectionPopUp:hover {
+    background-color: #A7A3A3;
+  }
+
+  /* LI DE LA LISTA DE TAREAS */
+  li {
+    list-style: none;
+  }
+  #iptTituloTarea {
+  color: black;
+  background: #E1DBDC;
+  height: 20px;
+  font-size: 13px;
+  border-radius: 5px;
+  border-color: #171616;
+  opacity: .70;
+  }
+
+  #styleTarea {
+    background-color: #e9b5b0;
+    border-radius: 30px;
+    transition: background-color 0.5s;
+  }
+  #styleTarea:hover {
+    background-color: #d79089;
+  }
+
+  /* ESTILO BOTONES */
+
+  #fabBtn {
+    border-radius: 100%;
+    background: #E1DBDC;
+    display: flex;
+    margin-top: 400px;
+  }
+
+  /* BOTON SI Y NO DEL POP UP */
+  #btnSI,
+  #btnNO {
+    background: #E1DBDC;
+    border-radius: 10px;
+  }
+
+  #btnSI:hover, #btnNO:hover {
+    background-color: #A7A3A3;
+  }
+
+  #btnCheck {
+    background: #E1DBDC;
+    border-radius: 5px;
+  }
+  #btnCheck:hover {
+    background-color: #beecb0;
+  }
+  #btnDelete {
+    background: #E1DBDC;
+    border-radius: 5px;
+  }
+  #btnDelete:hover {
+    background: #FD737A;
+  }
